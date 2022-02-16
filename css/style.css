@@ -1,0 +1,111 @@
+@import "null.css";
+
+@font-face{
+   font-family: "CircularStd";
+   src: url("../fonts/CircularStd-Book.woff2") format("woff2"), url("../fonts/CircularStd-Book.woff") format("woff");
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face{
+   font-family: "CircularStd";
+   src: url("../fonts/CircularStd-Medium.woff2") format("woff2"), url("../fonts/CircularStd-Medium.woff") format("woff");
+   font-weight: 500;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face{
+   font-family: "CircularStd";
+   src: url("../fonts/CircularStd-Bold.woff2") format("woff2"), url("../fonts/CircularStd-Bold.woff") format("woff");
+   font-weight: 700;
+   font-style: normal;
+   font-display: swap;
+}
+
+body{
+   font-family: "CircularStd", sans-serif;
+   font-weight: 500;
+   font-size: 18px;
+   color: #313131;
+}
+
+.wrapper {
+	min-height: 100%;
+   overflow: auto;
+   max-width: 1232px;
+}
+
+.content{
+   padding: 140px 0 0 0;
+   margin: 0 auto;
+   max-width: 83.2%;
+}
+
+.header {
+   margin: 0 auto 224px;
+   max-width: 750px;
+   text-align: center;
+}
+.title {
+   margin: 0 0 20px 0;
+   font-size: 65px;
+   line-height: 82px;
+}
+.subtitle {
+   font-size: 20px;
+   line-height: 25px;
+   color: #5F5F5F;
+   font-weight: normal;
+}
+.main {
+   max-width: 49.56%;
+   min-width: none;
+   margin: 0 0 115px 0;
+}
+/* .block { */
+/* } */
+.block-title {
+   margin: 0 0 20px 0;
+   font-size: 34px;
+   font-weight: 700;
+   line-height: 44px;
+}
+.block-text {
+   margin: 0 0 125px 0;
+   color: #5F5F5F;
+   line-height: 28px;
+   font-weight: normal;
+}
+/* .block-group { */
+/* } */
+.p1 {
+   margin: 0 0 5px 0;
+   font-weight: 700;
+   line-height: 23px;
+}
+.p2 {
+   font-weight: normal;
+   color: #B8B8B8;
+}
+.footer {
+   margin: 0 0 0 auto;
+   max-width: 45.66%;
+}
+
+.image {
+   margin: -114.74% 0 0 0;
+}
+
+.image-bg{
+   background-color: #fffce6;
+   border-radius: 50% 50% 0 0;
+   padding: 0 4.49% 0.21% 9.83%;
+}
+
+.img {
+   margin: -24.57% 0 0 0;
+   width: 100%;
+}
+
